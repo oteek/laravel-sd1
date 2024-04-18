@@ -3,5 +3,7 @@
 return [
 
     'dashboard' => 'Dashboard',
-    'title' => "Conferences"
+    'title' => "Conferences",
+    'events' => "Events",
+    'gallery' => "Gallery",
 ];
