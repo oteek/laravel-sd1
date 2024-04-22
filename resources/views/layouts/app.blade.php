@@ -34,9 +34,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('events.index') }}">{{ __('dashboard.events') }}</a>
                             </li>
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a class="nav-link" href="{{ route('galleries.index') }}">{{ __('dashboard.gallery') }}</a>
-                            </li>
+                            </li> --}}
                         @endauth
                     </ul>
 

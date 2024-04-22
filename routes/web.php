@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\GalleryController;
 use App\Models\Country;
+use App\Models\Event;
 
 
 /*
