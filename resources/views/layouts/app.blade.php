@@ -16,6 +16,7 @@
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
+
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
@@ -82,6 +83,27 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+        {{-- <script src="{{ asset('js/moment.js') }}"></script>
+
+        <!-- Include your Vue and other scripts -->
+        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+
+        <!-- Display current date -->
+        <div id="current-date" class="text-center mt-3">
+            Current Date: <span id="date"></span>
+        </div>
+
+        <!-- Script to update current date -->
+        <script>
+            // Function to update current date
+            function updateCurrentDate() {
+                document.getElementById('date').textContent = moment().format('YYYY-MM-DD');
+            }
+
+            // Update current date when the page loads
+            updateCurrentDate();
+        </script> --}}
     </div>
 </body>
 </html>

@@ -16,6 +16,7 @@ import { createApp } from 'vue';
 const app = createApp({});
 
 import ExampleComponent from './components/ExampleComponent.vue';
+
 app.component('example-component', ExampleComponent);
 
 /**
@@ -35,5 +36,8 @@ app.component('example-component', ExampleComponent);
  * an "id" attribute of "app". This element is included with the "auth"
  * scaffolding. Otherwise, you will need to add an element yourself.
  */
+
+// var moment = require('moment');
+// console.log(moment().format());
 
 app.mount('#app');
