@@ -4,8 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\GalleryController;
-use App\Http\Models\City;
-use App\Http\Models\Country;
+use App\Models\Country;
+
 
 /*
 |--------------------------------------------------------------------------

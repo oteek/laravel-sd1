@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\CreateEventRequest;
+
 use App\Models\Country;
 use App\Models\Event;
 use App\Models\Tag;
@@ -44,7 +45,7 @@ class EventController extends Controller
             $data['user_id'] = auth()->id();
             $data['slug'] = Str::slug($request->title);
 
-            $event = Event::create($data);
+            Event::create($data);
             //$event->tags()->attach($request->tags);
             return to_route('events.index');
         } else {

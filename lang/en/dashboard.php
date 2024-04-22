@@ -8,5 +8,6 @@ return [
     'gallery' => "Gallery",
 
     'new_event' => "New Conference",
+    'placeholdername' => "Conference Name",
     
 ];
